@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 200vw;
+  height: 200vh;
+}
+
+h1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  font-family: arial;
+}
+
+#header1 {
+  transform: translate(-50%, -150%);
+  color: red;
+}
+
+#header2 {
+  transform: translate(-50%, -50%);
+  color: purple;
+}
+
+#header3 {
+  transform: translate(-50%, 50%);
+  color: blue;
+}
